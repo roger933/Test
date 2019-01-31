@@ -8,11 +8,6 @@ def resta (num1,num2):
     resultado = num1-num2
     print ("El resultado es " ,resultado)
 
-def multiplicar (num1,num2):
-
-    resultado = num1*num2
-    print ("El resultado es " ,resultado)
-
 
 print ("Calculadora")
 print ("Elige una opcion: ")
@@ -35,7 +30,12 @@ if opcion == "2":
 if opcion == "3":
     num1 = int(input("Introduce el primer numero "))
     num2 = int(input("Introduce el segundo numero "))
-    multiplicar (num1,num2)
+    resultado = 0
+ 
+for i in range(num1):
+    resultado= resultado+num2  
+ 
+print ("El resultado es " ,resultado)
     
 
 
