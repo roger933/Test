@@ -1,12 +1,12 @@
-archivo_texto=open("adventofcode1.txt", "r")
+with open("adventofcode1.txt", "r") as archivo_texto:
 
-suma=0
+    suma=0
 
-for line in archivo_texto.readlines():
+    for line in archivo_texto.readlines():
 
-    suma = suma + int(line)
+        suma=suma+int(line)
 
-print (suma)
+print(suma)
     
 
 
