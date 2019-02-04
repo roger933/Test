@@ -1,8 +1,12 @@
 archivo_texto=open("adventofcode1.txt", "r")
 
+suma=0
+
 for line in archivo_texto.readlines():
 
-    print(line)
+    suma = suma + int(line)
+
+print (suma)
     
 
 
